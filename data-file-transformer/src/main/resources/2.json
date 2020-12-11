@@ -1,0 +1,13 @@
+{
+    "customername": "vijay",
+    "gender": "male",
+    "age": 30,
+    "iscustomeremployed": true,
+    "mobile": "9894049309",
+    "official": {
+        "company": "4kites",
+        "address": "chennao",
+        "email": "some@4k.com",
+        "position": "soft eng"
+    }
+}

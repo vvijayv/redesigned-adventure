@@ -1,0 +1,66 @@
+{
+    "permalink": "{{permalink}}"
+    "Loads": 
+    {{#Message.Shipment}}
+    [{
+        "BillOfLading": "{{TCShipmentID}}",
+        "Operation": "add",
+        "Scac": "{{AssignedCarrierCode}}",
+        "LoadReferenceNumbers": [],
+        "Tags": [],
+        {{#CustomFieldList.CustomField}}
+        {{#equals 'Route_Number' Name}}
+        "RouteId": "{{Value}}",
+        {{/equals}}
+        {{/CustomFieldList.CustomField}}
+        "Stops": {
+            {{#Stop}}
+            {{#equals 'PU' StopAction.ActionCode}}
+            "PickupStops": [{
+                "address_line_1": "{{Address}}",
+                "address_line_2": "{{Address2}}",
+                "city": "{{City}}",
+                "state": "{{StateProv}}",
+                "postal": "{{PostalCode}}",
+                "country": "{{CountryCode}}",
+                "location": "{{NameOfLocation}}",
+                "sequence": "{{StopSequence}}",
+                "earliest_arrival_time": "{{PossibleArrivalStart}}",
+                "latest_arrival_time": "{{PossibleDepartureEnd}}",
+                "earliest_want_time": "{{ArrivalStart}}",
+                "latest_want_time": "{{DepartureEnd}}",
+                {{#equals 'false' IsDropAndHook}}
+                "loadingType":  "Live"
+                {{else}} 
+                "loadingType":  "DropHook"
+                {{/equals}}
+            }],
+            {{/equals}}
+            {{#equals 'DL' StopAction.ActionCode}}
+            "DeliveryStops": [ 
+                {
+                    "address_line_1": "{{Address}}",
+                    "address_line_2": "{{Address2}}",
+                    "city": "{{City}}",
+                    "state": "{{StateProv}}",
+                    "postal": "{{PostalCode}}",
+                    "country": "{{CountryCode}}",
+                    "location": "{{NameOfLocation}}",
+                    "sequence": "{{StopSequence}}",
+                    "earliest_arrival_time": "{{PossibleArrivalStart}}",
+                    "latest_arrival_time": "{{PossibleDepartureEnd}}",
+                    "earliest_want_time": "{{ArrivalStart}}",
+                    "latest_want_time": "{{DepartureEnd}}",
+                    {{#equals 'false' IsDropAndHook}}
+                    "loadingType":  "Live"
+                    {{else}} 
+                    "loadingType":  "DropHook"
+                    {{/equals}}
+                }
+            ]
+            {{/equals}}
+            {{/Stop}}
+        }
+    }]
+    {{/Message.Shipment}}
+}
