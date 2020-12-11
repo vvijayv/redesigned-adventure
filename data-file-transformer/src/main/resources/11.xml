@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LeanXML>
+    <Order>
+        <PO>FDDDDT55910</PO>
+        <SHIP_DT>03/13/2020 00:00</SHIP_DT>
+        <EXPECTED_RECEIPT_DT>03/13/2020 00:00</EXPECTED_RECEIPT_DT>
+        <ORIGINAL_RECEIPT_DT>03/13/2020 00:00</ORIGINAL_RECEIPT_DT>
+        <RELEASE_DT>03/13/2020 00:00</RELEASE_DT>
+        <PO_TYPE>Import</PO_TYPE>
+        <FREIGHT_TERM></FREIGHT_TERM>
+        <ORIGIN_PO_NO>FT54615</ORIGIN_PO_NO>
+        <ORIGIN_NM>BEAUMONT</ORIGIN_NM>
+        <ORIGIN_SHIP_ADDR1>1560 BIG SHANTY DR</ORIGIN_SHIP_ADDR1>
+        <ORIGIN_SHIP_ADDR2></ORIGIN_SHIP_ADDR2>
+        <ORIGIN_CITY>KENNESAW</ORIGIN_CITY>
+        <ORIGIN_STATE>GA</ORIGIN_STATE>
+        <ORIGIN_ZIPCODE>30144</ORIGIN_ZIPCODE>
+        <ORGIN_COUNTRY>US</ORGIN_COUNTRY>
+        <DEST_LOCATION_REF>FT1</DEST_LOCATION_REF>
+        <DEST_NM>FRESH THYME BOLINGBROOK DC</DEST_NM>
+        <DEST_ADDR1>570 W. NORTH FRONTAGE RD</DEST_ADDR1>
+        <DEST_CITY>BOLINGBROOK</DEST_CITY>
+        <DEST_STATE>IL</DEST_STATE>
+        <DEST_ZIPCODE>60440</DEST_ZIPCODE>
+        <SUPPLIER>FT73686</SUPPLIER>
+        <PO_STATUS>ADD/UPDATE</PO_STATUS>
+        <TOT_PO_AMT />
+        <GROSS_NET_WT>4980.200</GROSS_NET_WT>
+        <OrderItems>
+            <OrderItem>
+                <PALLET_ID />
+                <PALLET_QTY>148.0</PALLET_QTY>
+                <TI_HI>101</TI_HI>
+                <HOLD_DT />
+                <PROMO_DT />
+                <CASE_PACK_ID>CASES</CASE_PACK_ID>
+                <CASE_PACK_SIZE>24CT</CASE_PACK_SIZE>
+                <CASE_PACK_QTY>1</CASE_PACK_QTY>
+                <CASE_PACK_DESC />
+                <ITEM_ID>120442</ITEM_ID>
+                <LINE_NO>1</LINE_NO>
+                <ITEM_QTY>148</ITEM_QTY>
+                <UPC></UPC>
+                <PRICE>71.0400</PRICE>
+                <PRODUCT_ID>120442</PRODUCT_ID>
+                <PRODUCT_SZ_DESC />
+                <PRODUCT_NM>ORG FRUIT VEGGIE WASH SHIPPER 24CT ORG FRUIT  VEGGIE WASH SHIPPER 24CT</PRODUCT_NM>
+                <ITEM_BUYER_ID>110</ITEM_BUYER_ID>
+                <ITEM_NET_WT>4980.2</ITEM_NET_WT>
+                <VENDOR_ITEM_NO></VENDOR_ITEM_NO>
+                <ITEM_VOLUME>303.998808</ITEM_VOLUME>
+            </OrderItem>
+            <OrderItem>
+                <PALLET_ID />
+                <PALLET_QTY>148.0</PALLET_QTY>
+                <TI_HI>101</TI_HI>
+                <HOLD_DT />
+                <PROMO_DT />
+                <CASE_PACK_ID>CASES</CASE_PACK_ID>
+                <CASE_PACK_SIZE>24CT</CASE_PACK_SIZE>
+                <CASE_PACK_QTY>1</CASE_PACK_QTY>
+                <CASE_PACK_DESC />
+                <ITEM_ID>12044222222</ITEM_ID>
+                <LINE_NO>1</LINE_NO>
+                <ITEM_QTY>148</ITEM_QTY>
+                <UPC></UPC>
+                <PRICE>71.0400</PRICE>
+                <PRODUCT_ID>120442</PRODUCT_ID>
+                <PRODUCT_SZ_DESC />
+                <PRODUCT_NM>ORG FRUIT VEGGIE WASH SHIPPER 24CT ORG FRUIT  VEGGIE WASH SHIPPER 24CT</PRODUCT_NM>
+                <ITEM_BUYER_ID>110</ITEM_BUYER_ID>
+                <ITEM_NET_WT>4980.2</ITEM_NET_WT>
+                <VENDOR_ITEM_NO></VENDOR_ITEM_NO>
+                <ITEM_VOLUME>303.998808</ITEM_VOLUME>
+            </OrderItem>
+        </OrderItems>
+    </Order>
+    <Order>
+        <PO>FT55910</PO>
+        <SHIP_DT>03/13/2020 00:00</SHIP_DT>
+        <EXPECTED_RECEIPT_DT>03/13/2020 00:00</EXPECTED_RECEIPT_DT>
+        <ORIGINAL_RECEIPT_DT>03/13/2020 00:00</ORIGINAL_RECEIPT_DT>
+        <RELEASE_DT>03/13/2020 00:00</RELEASE_DT>
+        <PO_TYPE>Import</PO_TYPE>
+        <FREIGHT_TERM>COL</FREIGHT_TERM>
+        <ORIGIN_PO_NO>FT54615</ORIGIN_PO_NO>
+        <ORIGIN_NM>BEAUMONT</ORIGIN_NM>
+        <ORIGIN_SHIP_ADDR1>1560 BIG SHANTY DR</ORIGIN_SHIP_ADDR1>
+        <ORIGIN_SHIP_ADDR2></ORIGIN_SHIP_ADDR2>
+        <ORIGIN_CITY>KENNESAW</ORIGIN_CITY>
+        <ORIGIN_STATE>GA</ORIGIN_STATE>
+        <ORIGIN_ZIPCODE>30144</ORIGIN_ZIPCODE>
+        <ORGIN_COUNTRY>US</ORGIN_COUNTRY>
+        <DEST_LOCATION_REF>FT1</DEST_LOCATION_REF>
+        <DEST_NM>FRESH THYME BOLINGBROOK DC</DEST_NM>
+        <DEST_ADDR1>570 W. NORTH FRONTAGE RD</DEST_ADDR1>
+        <DEST_CITY>BOLINGBROOK</DEST_CITY>
+        <DEST_STATE>IL</DEST_STATE>
+        <DEST_ZIPCODE>60440</DEST_ZIPCODE>
+        <SUPPLIER>FT73686</SUPPLIER>
+        <PO_STATUS>ADD/UPDATE</PO_STATUS>
+        <TOT_PO_AMT />
+        <GROSS_NET_WT>4980.200</GROSS_NET_WT>
+        <OrderItems>
+            <OrderItem>
+                <PALLET_ID />
+                <PALLET_QTY>148.0</PALLET_QTY>
+                <TI_HI>101</TI_HI>
+                <HOLD_DT />
+                <PROMO_DT />
+                <CASE_PACK_ID>CASES</CASE_PACK_ID>
+                <CASE_PACK_SIZE>24CT</CASE_PACK_SIZE>
+                <CASE_PACK_QTY>1</CASE_PACK_QTY>
+                <CASE_PACK_DESC />
+                <ITEM_ID>120sdsdfsdfsdf442</ITEM_ID>
+                <LINE_NO>1</LINE_NO>
+                <ITEM_QTY>148</ITEM_QTY>
+                <UPC></UPC>
+                <PRICE>71.0400</PRICE>
+                <PRODUCT_ID>120442</PRODUCT_ID>
+                <PRODUCT_SZ_DESC />
+                <PRODUCT_NM>ORG FRUIT VEGGIE WASH SHIPPER 24CT ORG FRUIT  VEGGIE WASH SHIPPER 24CT</PRODUCT_NM>
+                <ITEM_BUYER_ID>110</ITEM_BUYER_ID>
+                <ITEM_NET_WT>4980.2</ITEM_NET_WT>
+                <VENDOR_ITEM_NO></VENDOR_ITEM_NO>
+                <ITEM_VOLUME>303.998808</ITEM_VOLUME>
+            </OrderItem>
+        </OrderItems>
+    </Order>
+    <Order>
+        <PO>FT5591999990</PO>
+        <SHIP_DT>03/13/2020 00:00</SHIP_DT>
+        <EXPECTED_RECEIPT_DT>03/13/2020 00:00</EXPECTED_RECEIPT_DT>
+        <ORIGINAL_RECEIPT_DT>03/13/2020 00:00</ORIGINAL_RECEIPT_DT>
+        <RELEASE_DT>03/13/2020 00:00</RELEASE_DT>
+        <PO_TYPE>Import</PO_TYPE>
+        <FREIGHT_TERM>PP</FREIGHT_TERM>
+        <ORIGIN_PO_NO>FT54615</ORIGIN_PO_NO>
+        <ORIGIN_NM>BEAUMONT</ORIGIN_NM>
+        <ORIGIN_SHIP_ADDR1>1560 BIG SHANTY DR</ORIGIN_SHIP_ADDR1>
+        <ORIGIN_SHIP_ADDR2></ORIGIN_SHIP_ADDR2>
+        <ORIGIN_CITY>KENNESAW</ORIGIN_CITY>
+        <ORIGIN_STATE>GA</ORIGIN_STATE>
+        <ORIGIN_ZIPCODE>30144</ORIGIN_ZIPCODE>
+        <ORGIN_COUNTRY>US</ORGIN_COUNTRY>
+        <DEST_LOCATION_REF>FT1</DEST_LOCATION_REF>
+        <DEST_NM>FRESH THYME BOLINGBROOK DC</DEST_NM>
+        <DEST_ADDR1>570 W. NORTH FRONTAGE RD</DEST_ADDR1>
+        <DEST_CITY>BOLINGBROOK</DEST_CITY>
+        <DEST_STATE>IL</DEST_STATE>
+        <DEST_ZIPCODE>60440</DEST_ZIPCODE>
+        <SUPPLIER>FT73686</SUPPLIER>
+        <PO_STATUS>ADD/UPDATE</PO_STATUS>
+        <TOT_PO_AMT />
+        <GROSS_NET_WT>4980.200</GROSS_NET_WT>
+        <OrderItems>
+            <OrderItem>
+                <PALLET_ID />
+                <PALLET_QTY>148.0</PALLET_QTY>
+                <TI_HI>101</TI_HI>
+                <HOLD_DT />
+                <PROMO_DT />
+                <CASE_PACK_ID>CASES</CASE_PACK_ID>
+                <CASE_PACK_SIZE>24CT</CASE_PACK_SIZE>
+                <CASE_PACK_QTY>1</CASE_PACK_QTY>
+                <CASE_PACK_DESC />
+                <ITEM_ID>120442</ITEM_ID>
+                <LINE_NO>1</LINE_NO>
+                <ITEM_QTY>148</ITEM_QTY>
+                <UPC></UPC>
+                <PRICE>71.0400</PRICE>
+                <PRODUCT_ID>120442</PRODUCT_ID>
+                <PRODUCT_SZ_DESC />
+                <PRODUCT_NM>ORG FRUIT &amp; VEGGIE WASH SHIPPER 24CT ORG FRUIT &amp; VEGGIE WASH SHIPPER 24CT</PRODUCT_NM>
+                <ITEM_BUYER_ID>110</ITEM_BUYER_ID>
+                <ITEM_NET_WT>4980.2</ITEM_NET_WT>
+                <VENDOR_ITEM_NO></VENDOR_ITEM_NO>
+                <ITEM_VOLUME>303.998808</ITEM_VOLUME>
+            </OrderItem>
+        </OrderItems>
+    </Order>
+    <Order>
+        <PO>XYSSSSS222222</PO>
+        <SHIP_DT>03/13/2020 00:00</SHIP_DT>
+        <EXPECTED_RECEIPT_DT>03/13/2020 00:00</EXPECTED_RECEIPT_DT>
+        <ORIGINAL_RECEIPT_DT>03/13/2020 00:00</ORIGINAL_RECEIPT_DT>
+        <RELEASE_DT>03/13/2020 00:00</RELEASE_DT>
+        <PO_TYPE>Import</PO_TYPE>
+        <FREIGHT_TERM>PP</FREIGHT_TERM>
+        <ORIGIN_PO_NO>FT54615</ORIGIN_PO_NO>
+        <ORIGIN_NM>BEAUMONT</ORIGIN_NM>
+        <ORIGIN_SHIP_ADDR1>1560 BIG SHANTY DR</ORIGIN_SHIP_ADDR1>
+        <ORIGIN_SHIP_ADDR2></ORIGIN_SHIP_ADDR2>
+        <ORIGIN_CITY>KENNESAW</ORIGIN_CITY>
+        <ORIGIN_STATE>GA</ORIGIN_STATE>
+        <ORIGIN_ZIPCODE>30144</ORIGIN_ZIPCODE>
+        <ORGIN_COUNTRY>US</ORGIN_COUNTRY>
+        <DEST_LOCATION_REF>FT1</DEST_LOCATION_REF>
+        <DEST_NM>FRESH THYME BOLINGBROOK DC</DEST_NM>
+        <DEST_ADDR1>570 W. NORTH FRONTAGE RD</DEST_ADDR1>
+        <DEST_CITY>BOLINGBROOK</DEST_CITY>
+        <DEST_STATE>IL</DEST_STATE>
+        <DEST_ZIPCODE>60440</DEST_ZIPCODE>
+        <SUPPLIER>FT73686</SUPPLIER>
+        <PO_STATUS>ADD/UPDATE</PO_STATUS>
+        <TOT_PO_AMT />
+        <GROSS_NET_WT>4980.200</GROSS_NET_WT>
+        <OrderItems>
+            <OrderItem>
+                <PALLET_ID />
+                <PALLET_QTY>148.0</PALLET_QTY>
+                <TI_HI>101</TI_HI>
+                <HOLD_DT />
+                <PROMO_DT />
+                <CASE_PACK_ID>CASES</CASE_PACK_ID>
+                <CASE_PACK_SIZE>24CT</CASE_PACK_SIZE>
+                <CASE_PACK_QTY>1</CASE_PACK_QTY>
+                <CASE_PACK_DESC />
+                <ITEM_ID>120442</ITEM_ID>
+                <LINE_NO>1</LINE_NO>
+                <ITEM_QTY>148</ITEM_QTY>
+                <UPC></UPC>
+                <PRICE>71.0400</PRICE>
+                <PRODUCT_ID>120442</PRODUCT_ID>
+                <PRODUCT_SZ_DESC />
+                <PRODUCT_NM>ORG FRUIT &amp; VEGGIE WASH SHIPPER 24CT ORG FRUIT &amp; VEGGIE WASH SHIPPER 24CT</PRODUCT_NM>
+                <ITEM_BUYER_ID>110</ITEM_BUYER_ID>
+                <ITEM_NET_WT>4980.2</ITEM_NET_WT>
+                <VENDOR_ITEM_NO></VENDOR_ITEM_NO>
+                <ITEM_VOLUME>303.998808</ITEM_VOLUME>
+            </OrderItem>
+        </OrderItems>
+    </Order>
+</LeanXML>

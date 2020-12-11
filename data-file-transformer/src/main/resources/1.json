@@ -1,0 +1,26 @@
+{
+    "name": "vijay",
+    "gender": "male",
+    "age": 30,
+    "employed": true,
+    "phone": "9894049309",
+    "employment": {
+        "company": "4kites",
+        "address": "chennao",
+        "email": "some@4k.com",
+        "designation": "soft eng"
+    },
+    "contacts": [
+        {
+            "mobile": "1"
+        },
+        {
+            "mobile": "2"
+            
+        },
+        {
+            "mobile": "3"
+
+        }
+    ]
+}

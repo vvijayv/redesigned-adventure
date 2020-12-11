@@ -1,0 +1,16 @@
+{
+    "firstName": {{name}},
+    "gender": {{gender}},
+    "age": {{age}},
+    "isEmployed": {{employed}},
+    "mobile": {{phone}},
+    "companyName": {{employment.company}},
+    "companyAddress": {{employment.address}},
+    "officeEmail": {{employment.email}},
+    "designation": {{employment.designation}},
+    "contacts": [
+        {{#contacts}}
+            "phone": "{{mobile}}",
+        {{/contacts}}
+    ]
+}

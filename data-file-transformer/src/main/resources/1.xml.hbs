@@ -1,0 +1,33 @@
+{
+    "orders": [
+        "permalink": "{{permalink}}"
+        {{#Order}}
+        {
+            "poNumber": "{{PO}}",
+            "poStatus": "{{PO_STATUS}}",
+            "lineItems": [
+                {{#OrderItems.OrderItem}}
+                {
+                    "itemNo": "{{PALLET_QTY}}",
+                    "PALLET_QTY": "{{PALLET_QTY}}",
+                    "ti":"{{TI_HI}}",
+                    "casepack":"{{CASE_PACK_ID}}",
+                    "casesize":"{{CASE_PACK_SIZE}}",
+                    "quant":"{{CASE_PACK_QTY}}",
+                    "itemid": "{{ITEM_ID}}",
+                    "lineno": "{{LINE_NO}}",
+                    "itemquant":"{{ITEM_QTY}}",
+                    "upc":"{{UPC}}",
+                    "price":"{{PRICE}}",
+                    "prodid":"{{PRODUCT_ID}}",
+                    "prodnm":"{{PRODUCT_NM}}",
+                    "buyer":"{{ITEM_BUYER_ID}}",
+                    "wt":"{{ITEM_NET_WT}}",
+                    "itemno":"{{VENDOR_ITEM_NO}}",
+                    "volume":"{{ITEM_VOLUME}}"
+                },
+                {{/OrderItems.OrderItem}}
+        }
+        {{/Order}}
+    ]
+}
