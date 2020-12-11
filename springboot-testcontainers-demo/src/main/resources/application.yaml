@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: testcontainer-demo
+  redis:
+    host: localhost
+  kafka:
+    bootstrap-servers:
+      - "localhost:9092"
+    consumer:
+      group-id: "my-group-1"
+      auto-offset-reset: latest
+    listener:
+      concurrency: 2
+amazon:
+  s3:
+    bucket: "dev-files-backup"
+    region: "us-east-1"
+    key: "venkiii/vijay/"
+  aws:
+    access-key-id: ${ACCESS_KEY}
+    access-key-secret: ${ACCESS_KEY_SECRET}
