@@ -1,5 +1,7 @@
 # Integration testing with `TestContainers`
 
-[`TestContainers`](https://www.testcontainers.org/) helps bring up any dependent tools like, databases, message-brokers, REST backend services as and when required to test the integration. All it requires is an environment with Docker. The images are downloaded from private image repository, or from central repo like Dockerhub.
+`TestContainers` helps create any dependent tools like, databases, message-brokers, REST backend services, as and when required to test the integration. All it requires is an environment with Docker. The images are downloaded from private image repository, or from public repo like Dockerhub.
 
-This project is an example to use TestContainers with spring-boot.
+This code was written to test a spring-boot application that uses Redis, Amazon S3 and Apache Kafka as dependencies, using TestContainers.
+
+More details on this confluence [doc](https://fourkites.atlassian.net/wiki/spaces/RD20/pages/1691910413/Integration+testing+microservices)
