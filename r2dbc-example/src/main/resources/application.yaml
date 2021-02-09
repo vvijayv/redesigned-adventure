@@ -1,0 +1,9 @@
+# logging.level.org.springframework.r2dbc=DEBUG
+# spring.r2dbc.url=localhost
+# spring.r2dbc.username=vijayveeraraghavanv
+# spring.r2dbc.password=
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432
+    username: vijayveeraraghavanv
+    password:
