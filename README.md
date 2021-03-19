@@ -1,2 +1,2 @@
 # redesigned-adventure
-POC
+POC for various problems
